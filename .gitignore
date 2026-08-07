@@ -1,0 +1,42 @@
+# Environment and secrets
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*.jks
+id_rsa*
+id_ed25519*
+secrets.*
+credentials.*
+token.*
+
+# Private clinical or internal material
+historias-clinicas/
+historia-clinica/
+pacientes/
+clientes-privados/
+protocolos/
+metodologia-interna/
+datos-sensibles/
+*.xlsx
+*.xls
+*.csv
+*.doc
+*.docx
+*.pdf
+
+# Local/editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.log
+tmp/
+temp/
+
